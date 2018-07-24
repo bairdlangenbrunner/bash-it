@@ -1,3 +1,6 @@
+cite 'about-alias'
+about-alias 'custom aliases for baird'
+
 alias ocean='ssh -X -Y baird@ocean.atmos.ucla.edu'
 alias nino='ssh -X -Y baird@nino.atmos.ucla.edu'
 alias nina='ssh -X -Y baird@nina.atmos.ucla.edu'
