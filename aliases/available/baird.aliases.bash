@@ -46,3 +46,7 @@ alias gp3fuse='sshfs blangenb@gplogin3.ps.uci.edu:/beegfs/DATA/pritchard/blangen
 
 #export NCARG_ROOT=/usr/local/ncl-6.3.0
 #export PATH=$NCARG_ROOT/bin:$PATH
+
+# added by Miniconda3 installer
+export PATH="/Users/baird/miniconda3/bin:$PATH"
+#export MPLCONFIGDIR=$HOME/.matplotlib
