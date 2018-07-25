@@ -31,11 +31,10 @@ module load netcdf
 # added by Anaconda3 4.4.0 installer
 export PATH="/glade/u/home/baird/anaconda3/bin:$PATH"
 
-alias dnest="cd /glade/p/work/baird/WRF_cases/CHEYENNE/WRF_400_FMAASO_nested/WRFV3/r    un/"
-alias dwrf="cd /glade/p/work/baird/WRF_cases/"
+alias qsub2hr="qsub -I -l select=4:ncpus=36:mpiprocs=36 -l walltime=02:00:00 -q regular -A UCLA0022"
+alias qsub30min="qsub -I -l select=4:ncpus=36:mpiprocs=36 -l walltime=00:30:00 -q regular -A UCLA0022"
 
-alias qsub2hr="qsub -I -l select=4:ncpus=36:mpiprocs=36 -l walltime=02:00:00 -q regu    lar -A UCLA0022"
-alias qsub30min="qsub -I -l select=4:ncpus=36:mpiprocs=36 -l walltime=00:30:00 -q re    gular -A UCLA0022"
+alias dwrf='cd /glade/work/baird/WRF_cases/CHEYENNE/'
 
 #export CLICOLOR=1;
 #export LSCOLORS=exfxcxdxbxegedabagacad;

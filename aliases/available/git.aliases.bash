@@ -1,6 +1,9 @@
 cite 'about-alias'
 about-alias 'common git abbreviations'
 
+git config --global user.name "Baird Langenbrunner"
+git config --global user.email langenbrunner@gmail.com
+
 # Aliases
 #alias gcl='git clone'
 alias ga='git add'
