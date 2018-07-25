@@ -1,16 +1,9 @@
-# .bash_profile
-
-# Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-	. ~/.bashrc
-fi
-
 # User specific environment and startup programs
-PATH=$PATH:$HOME/bin
-export PATH
+#PATH=$PATH:$HOME/bin
+#export PATH
 
 # User specific aliases and functions
-alias jn8787='jupyter notebook --no-browser --port=8787'
+#alias jn8787='jupyter notebook --no-browser --port=8787'
 alias bdata="cd /beegfs/DATA/pritchard/blangenb"
 
 #gp3job() {
