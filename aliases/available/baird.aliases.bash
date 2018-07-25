@@ -45,7 +45,7 @@ alias gp1c339='ssh -X -Y blangenb@gplogin1.ps.uci.edu -t "ssh -X -Y c-3-39; bash
 alias gp3c339='ssh -X -Y blangenb@gplogin3.ps.uci.edu -t "ssh -X -Y c-3-39; bash --login"'
 
 alias gp1fuse='sshfs blangenb@gplogin1.ps.uci.edu:/beegfs/DATA/pritchard/blangenb/ /Users/baird/Dropbox/gpfuse'
-alias gp3fuse='sshfs blangenb@gplogin3.ps.uci.edu:/beegfs/DATA/pritchard/blangenb/ /Users/baird/Dropbox/gpfuse; cd ~/Dropbox/gpfu    se'
+alias gp3fuse='sshfs blangenb@gplogin3.ps.uci.edu:/beegfs/DATA/pritchard/blangenb/ /Users/baird/Dropbox/gpfuse; cd ~/Dropbox/gpfuse'
 
 #export NCARG_ROOT=/usr/local/ncl-6.3.0
 #export PATH=$NCARG_ROOT/bin:$PATH
