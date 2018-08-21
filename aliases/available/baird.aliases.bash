@@ -1,6 +1,9 @@
 cite 'about-alias'
 about-alias 'custom aliases for baird'
 
+alias gitall='cd ~/Dropbox/_git_ALL/'
+alias ghres='cd ~/Dropbox/_git_ALL/_github_repos_research/'
+
 alias ocean='ssh -X -Y baird@ocean.atmos.ucla.edu'
 alias nino='ssh -X -Y baird@nino.atmos.ucla.edu'
 alias nina='ssh -X -Y baird@nina.atmos.ucla.edu'
@@ -28,6 +31,9 @@ gp1c339tunel() {
   ssh -L localhost:$1:localhost:$1 blangenb@gplogin1.ps.uci.edu -t "ssh -L localhost:$1:localhost:$1 c-3-39"
 }
 
+gp3c14194tunnel() {
+  ssh -L localhost:$1:localhost:$1 blangenb@gplogin3.ps.uci.edu -t "ssh -L localhost:$1:localhost:$1 c-14-194"
+}
 
 gitpub() {
   git add .
