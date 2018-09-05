@@ -27,12 +27,12 @@ gp1slurmtunnel() {
   ssh -L localhost:$1:localhost:$1 blangenb@gplogin1.ps.uci.edu -t "ssh -L localhost:$1:localhost:$1 $2"
 }
 
-gp1c339tunel() {
+gp1c339tunnel() {
   ssh -L localhost:$1:localhost:$1 blangenb@gplogin1.ps.uci.edu -t "ssh -L localhost:$1:localhost:$1 c-3-39"
 }
 
-gp3c14194tunnel() {
-  ssh -L localhost:$1:localhost:$1 blangenb@gplogin3.ps.uci.edu -t "ssh -L localhost:$1:localhost:$1 c-14-194"
+gp3c339tunnel() {
+  ssh -L localhost:$1:localhost:$1 blangenb@gplogin3.ps.uci.edu -t "ssh -L localhost:$1:localhost:$1 c-3-39"
 }
 
 gitpub() {
