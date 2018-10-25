@@ -14,6 +14,9 @@ alias dn-baird='ssh -X -Y baird@dn-baird.atmos.ucla.edu'
 alias yellowstone='ssh -X -Y baird@yellowstone.ucar.edu'
 alias cheyenne='ssh -X -Y baird@cheyenne.ucar.edu'
 
+alias xsede='ssh -Y blangenb@login.xsede.org'
+alias s2='ssh -Y blangenb@stampede2.tacc.utexas.edu'
+
 alias daphnetunnel='ssh -L localhost:8585:localhost:8585 baird@daphne.atmos.ucla.edu'
 alias oceantunnel='ssh -L localhost:8787:localhost:8787 baird@ocean.atmos.ucla.edu'
 alias gp2tunnel='ssh -L localhost:8787:localhost:8787 blangenb@gplogin2.ps.uci.edu'
@@ -47,8 +50,8 @@ alias gp1='ssh -Y blangenb@gplogin1.ps.uci.edu'
 alias gp2='ssh -Y blangenb@gplogin2.ps.uci.edu'
 alias gp3='ssh -Y blangenb@gplogin3.ps.uci.edu'
 
-alias gp1c339='ssh -X -Y blangenb@gplogin1.ps.uci.edu -t "ssh -X -Y c-3-39; bash --login"'
-alias gp3c339='ssh -X -Y blangenb@gplogin3.ps.uci.edu -t "ssh -X -Y c-3-39; bash --login"'
+alias gp1c339='ssh -Y blangenb@gplogin1.ps.uci.edu -t "ssh -X -Y c-3-39; bash --login"'
+alias gp3c339='ssh -Y blangenb@gplogin3.ps.uci.edu -t "ssh -X -Y c-3-39; bash --login"'
 
 alias gp1fuse='sshfs blangenb@gplogin1.ps.uci.edu:/beegfs/DATA/pritchard/blangenb/ /Users/baird/Dropbox/gpfuse'
 alias gp3fuse='sshfs blangenb@gplogin3.ps.uci.edu:/beegfs/DATA/pritchard/blangenb/ /Users/baird/Dropbox/gpfuse; cd ~/Dropbox/gpfuse'
