@@ -44,6 +44,18 @@ gitpub() {
   git push origin "$2"
 }
 
+snowtunnel() {
+  ssh -L localhost:$1:localhost:$1 baird@chione.atmos.ucla.edu
+}
+
+ninatunnel() {
+  ssh -L localhost:$1:localhost:$1 baird@nina.atmos.ucla.edu
+}
+
+oceantunnel() {
+  ssh -L localhost:$1:localhost:$1 baird@oceanus.atmos.ucla.edu
+}
+
 export PATH="/usr/local/bin:$PATH"
 
 alias gp1='ssh -Y blangenb@gplogin1.ps.uci.edu'
