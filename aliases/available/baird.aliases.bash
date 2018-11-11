@@ -52,9 +52,9 @@ ninatunnel() {
   ssh -L localhost:$1:localhost:$1 baird@nina.atmos.ucla.edu
 }
 
-oceantunnel() {
-  ssh -L localhost:$1:localhost:$1 baird@oceanus.atmos.ucla.edu
-}
+#oceantunnel() {
+#  ssh -L localhost:$1:localhost:$1 baird@oceanus.atmos.ucla.edu
+#}
 
 export PATH="/usr/local/bin:$PATH"
 
