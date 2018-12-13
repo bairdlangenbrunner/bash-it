@@ -38,6 +38,10 @@ gp3c339tunnel() {
   ssh -L localhost:$1:localhost:$1 blangenb@gplogin3.ps.uci.edu -t "ssh -L localhost:$1:localhost:$1 c-3-39"
 }
 
+gp3c341tunnel() {
+  ssh -L localhost:$1:localhost:$1 blangenb@gplogin2.ps.uci.edu -t "ssh -L localhost:$1:localhost:$1 c-3-41"
+}
+
 gitpub() {
   git add .
   git commit -m "$1"
@@ -64,6 +68,8 @@ alias gp3='ssh -Y blangenb@gplogin3.ps.uci.edu'
 
 alias gp1c339='ssh -Y blangenb@gplogin1.ps.uci.edu -t "ssh -X -Y c-3-39; bash --login"'
 alias gp3c339='ssh -Y blangenb@gplogin3.ps.uci.edu -t "ssh -X -Y c-3-39; bash --login"'
+
+alias gp2c341='ssh -Y blangenb@gplogin2.ps.uci.edu -t "ssh -X -Y c-3-41; bash --login"'
 
 alias gp1fuse='sshfs blangenb@gplogin1.ps.uci.edu:/beegfs/DATA/pritchard/blangenb/ /Users/baird/Dropbox/gpfuse'
 alias gp3fuse='sshfs blangenb@gplogin3.ps.uci.edu:/beegfs/DATA/pritchard/blangenb/ /Users/baird/Dropbox/gpfuse; cd ~/Dropbox/gpfuse'
