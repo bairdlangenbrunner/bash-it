@@ -38,7 +38,7 @@ gp3c339tunnel() {
   ssh -L localhost:$1:localhost:$1 blangenb@gplogin3.ps.uci.edu -t "ssh -L localhost:$1:localhost:$1 c-3-39"
 }
 
-gp3c341tunnel() {
+gp2c341tunnel() {
   ssh -L localhost:$1:localhost:$1 blangenb@gplogin2.ps.uci.edu -t "ssh -L localhost:$1:localhost:$1 c-3-41"
 }
 
