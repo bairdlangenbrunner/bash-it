@@ -1,5 +1,5 @@
 # added by Anaconda3 4.4.0 installer
-export PATH="/glade/u/home/baird/anaconda3/bin:$PATH"
+#export PATH="/glade/u/home/baird/anaconda3/bin:$PATH"
 
 export DIR=/glade/p/work/baird/WRF
 export CC=icc
@@ -30,6 +30,7 @@ module load netcdf
 
 # added by Anaconda3 4.4.0 installer
 export PATH="/glade/u/home/baird/anaconda3/bin:$PATH"
+#source activate py27
 
 alias qsub2hr="qsub -I -l select=4:ncpus=36:mpiprocs=36 -l walltime=02:00:00 -q regular -A UCLA0022"
 alias qsub30min="qsub -I -l select=4:ncpus=36:mpiprocs=36 -l walltime=00:30:00 -q regular -A UCLA0022"
