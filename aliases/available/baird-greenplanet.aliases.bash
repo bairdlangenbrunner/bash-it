@@ -14,6 +14,10 @@ gpjob() {
   srun --pty --mem 100gb -t "$1" -p c6145 bash -i
 }
 
+gpjobc341() {
+  srun --pty --mem 100gb -t "$1" -p c341 bash -i
+}
+
 # load all intel compilers
 #module load intel
 
