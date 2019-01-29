@@ -16,6 +16,10 @@ A colorful theme, where shows a lot information about your shell session.
 * An indicator when the current shell is inside the Vim editor
 * Battery charging status (depends on the [../../plugins/available/battery.plugin.bash](battery plugin))
 * SCM Repository status (e.g. Git, SVN)
+<<<<<<< HEAD
+=======
+* The current Kubernetes environment
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
 * The current Python environment (Virtualenv, venv, and Conda are supported) in use
 * The current Ruby environment (rvm and rbenv are supported) in use
 * Last command exit code (only shown when the exit code is greater than 0)
@@ -44,16 +48,28 @@ The time/date is printed by the `date` command, so refer to its man page to chan
 
 The contents of the prompt can be "reordered", all the "segments" (every piece of information) can take any place. The currently available segments are:
 
+<<<<<<< HEAD
+=======
+* `aws_profile` - Show the current value of the `AWS_PROFILE` environment variable
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
 * `battery` - Battery information (you'll need to enable the `battery` plugin)
 * `clock` - Current time in `HH:MM:SS` format
 * `cwd` - Current working directory including full folder hierarchy (c.f. `wd`)
 * `hostname` - Host name of machine
 * `in_vim` - Show identifier if running in `:terminal` from vim
+<<<<<<< HEAD
+=======
+* `k8s_context` - Show current kubernetes context
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
 * `last_status` - Exit status of last run command
 * `python_venv` - Python virtual environment information (`virtualenv`, `venv`
   and `conda` supported)
 * `ruby` - Current ruby version if using `rvm`
+<<<<<<< HEAD
 * `scm` - Version control information, `git` 
+=======
+* `scm` - Version control information, `git`
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
 * `user_info` - Current user
 * `wd` - Working directory, like `cwd` but doesn't show the full folder
   hierarchy, only the directory you're currently in.

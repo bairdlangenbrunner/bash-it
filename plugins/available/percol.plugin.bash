@@ -27,7 +27,11 @@ _replace_by_history() {
 
 
 if command -v percol>/dev/null; then
+<<<<<<< HEAD
     local current_version=${BASH_VERSION%%[^0-9]*}
+=======
+    current_version=${BASH_VERSION%%[^0-9]*}
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
     if [ $current_version -lt 4 ]; then
        echo -e "\033[91mWarning: You have to upgrade Bash to Bash v4.x to use the 'percol' plugin.\033[m"
        echo -e "\033[91m         Your current Bash version is $BASH_VERSION.\033[m"

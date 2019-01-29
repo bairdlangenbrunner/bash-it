@@ -20,23 +20,41 @@ done
 
 
 function postgres_start {
+<<<<<<< HEAD
   about 'Starts PostgresSQL server'
   group 'postgres'
 
   echo 'Starting PostgresSQL Server....'; 
+=======
+  about 'Starts PostgreSQL server'
+  group 'postgres'
+
+  echo 'Starting Postgres....'; 
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
   $POSTGRES_BIN/pg_ctl -D $PGDATA -l $PGDATA/logfile  start
 }
 
 function postgres_stop {
+<<<<<<< HEAD
   about 'Steps PostgresSQL server'
   group 'postgres'
 
   echo 'Stopping PostgresSQL Server....'; 
+=======
+  about 'Stops PostgreSQL server'
+  group 'postgres'
+
+  echo 'Stopping Postgres....'; 
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
   $POSTGRES_BIN/pg_ctl -D $PGDATA -l $PGDATA/logfile stop -s -m fast
 }
 
 function postgres_status {
+<<<<<<< HEAD
   about 'Returns status of PostgresSQL server'
+=======
+  about 'Returns status of PostgreSQL server'
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
   group 'postgres'
 
   # $POSTGRES_BIN/pg_ctl -D $PGDATA status  
@@ -55,7 +73,11 @@ function is_postgres_running {
 
 
 function postgres_restart {
+<<<<<<< HEAD
   about 'Restarts status of PostgresSQL server'
+=======
+  about 'Restarts status of PostgreSQL server'
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
   group 'postgres'
 
   echo 'Restarting Postgres....'; 

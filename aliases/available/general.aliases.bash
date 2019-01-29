@@ -99,8 +99,14 @@ alias bshenc="bash-it enable completion"
 # Shorten extract
 alias xt="extract"
 
+<<<<<<< HEAD
 # sudo vim
 alias svim="sudo vim"
+=======
+# sudo editors
+alias svim="sudo vim"
+alias snano="sudo nano"
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
 
 # Display whatever file is regular file or folder
 catt() {

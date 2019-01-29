@@ -2,6 +2,11 @@
 
 load ../test_helper
 load ../../lib/composure
+<<<<<<< HEAD
+=======
+load ../../lib/utilities
+load ../../lib/search
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
 load ../../plugins/available/base.plugin
 
 cite _about _param _example _group _author _version

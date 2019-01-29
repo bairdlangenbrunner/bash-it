@@ -57,7 +57,16 @@ chroot(){
 
 # show virtualenvwrapper
 my_ve(){
+<<<<<<< HEAD
     if [ -n "$VIRTUAL_ENV" ]
+=======
+
+    if [ -n "$CONDA_DEFAULT_ENV" ]
+    then
+        my_ps_ve="${bold_purple}${CONDA_DEFAULT_ENV}${normal}";
+        echo "($my_ps_ve)";
+    elif [ -n "$VIRTUAL_ENV" ]
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
     then 
         my_ps_ve="${bold_purple}$ve${normal}";
         echo "($my_ps_ve)";

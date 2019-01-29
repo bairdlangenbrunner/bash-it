@@ -46,6 +46,10 @@ The time/date is printed by the `date` command, so refer to its man page to chan
 
 The contents of both prompt sides can be "reordered", all the "segments" (every piece of information) can take any place. The currently available segments are:
 
+<<<<<<< HEAD
+=======
+* `aws_profile` - Show the current value of the `AWS_PROFILE` environment variable
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
 * `battery` - Battery information (you'll need to enable the `battery` plugin)
 * `clock` - Current time in `HH:MM:SS` format
 * `cwd` - Current working directory including full folder hierarchy (c.f. `wd`)

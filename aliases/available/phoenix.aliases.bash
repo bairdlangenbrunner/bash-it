@@ -3,7 +3,11 @@ about-alias 'phoenix abbreviations'
 
 # Phoenix Commands
 alias i='iex'
+<<<<<<< HEAD
 alias ips='iex -S mix phoenix.server'
+=======
+alias ips='iex -S mix phx.server'
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
 alias ism='iex -S mix'
 alias m='mix'
 alias mab='mix archive.build'
@@ -32,6 +36,7 @@ alias mho='mix hex.outdated'
 alias mlh='mix local.hex'
 alias mn='mix new'
 alias mns='mix new --sup'
+<<<<<<< HEAD
 alias mpgc='mix phoenix.gen.channel'
 alias mpgh='mix phoenix.gen.html'
 alias mpgj='mix phoenix.gen.json'
@@ -40,6 +45,16 @@ alias mpgs='mix phoenix.gen.secret'
 alias mpn='mix phoenix.new'
 alias mpr='mix phoenix.routes'
 alias mps='mix phoenix.server'
+=======
+alias mpgc='mix phx.gen.channel'
+alias mpgh='mix phx.gen.html'
+alias mpgj='mix phx.gen.json'
+alias mpgm='mix phx.gen.model'
+alias mpgs='mix phx.gen.secret'
+alias mpn='mix phx.new'
+alias mpr='mix phx.routes'
+alias mps='mix phx.server'
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
 alias mr='mix run'
 alias mrnh='mix run --no-halt'
 alias mrl='mix release'

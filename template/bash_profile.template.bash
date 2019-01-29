@@ -3,7 +3,12 @@
 # Path to the bash it configuration
 export BASH_IT="{{BASH_IT}}"
 
+<<<<<<< HEAD
 # Lock and Load a custom theme file
+=======
+# Lock and Load a custom theme file.
+# Leave empty to disable theming.
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
 # location /.bash_it/themes/
 export BASH_IT_THEME='bobby'
 

@@ -15,3 +15,7 @@ bats
 *.sublime-workspace
 *.sublime-project
 enabled/*
+<<<<<<< HEAD
+=======
+tmp/
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef

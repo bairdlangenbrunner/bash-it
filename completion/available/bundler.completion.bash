@@ -21,6 +21,12 @@ __bundle() {
       if [[ -z $bundle_command ]]; then
           options="$options --version --help"
       fi
+<<<<<<< HEAD
+=======
+  elif [[ $bundle_command = "exec" ]]; then
+      _bundle_exec_completions
+      return
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
   else
       if [[ -z $bundle_command || $bundle_command = help ]]; then
           options="help install update package exec config check list show
@@ -53,3 +59,13 @@ __bundle_get_command() {
 
 complete -F __bundle -o bashdefault -o default bundle
 # vim: ai ft=sh sw=4 sts=2 et
+<<<<<<< HEAD
+=======
+
+_bundle_exec_completions()
+{
+    if [[ $COMP_CWORD = 2 ]]; then
+        COMPREPLY=($(compgen -c -- "$2"))
+    fi
+}
+>>>>>>> 9c6ad0d35a1ad4275be4edb0831855c02997a2ef
